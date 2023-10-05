@@ -31,8 +31,12 @@
   font-size: 25px;
   color: var(--color-text);
   text-decoration: none;
+  transition: 0.5s;
 }
 
+.menuBtn {
+  display: none;
+}
 @media screen and (max-width: 830px) {
   .navbar {
     flex-direction: column;
@@ -68,4 +72,41 @@
     padding: 24px 33px;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
   }
+
+  .menuOpen {
+    display: flex;
+    z-index: 1;
+  }
+}
+
+.navlink {
+  position: relative;
+  transition: all 0.4s;
+}
+
+.navlink:hover,
+.navlink:focus {
+  color: white;
+  z-index: 1;
+}
+
+.navlink::after {
+  content: "";
+  height: 3px;
+  width: 0;
+  background: rgb(3, 63, 194);
+  left: 0;
+  bottom: -3px;
+  opacity: 0;
+  position: absolute;
+  transition: all 0.5s;
+  pointer-events: none;
+}
+
+.navlink:hover::after,
+.navlink:focus::after {
+  background: rgba(9, 226, 208, 0.7);
+  filter: blur(0.5px);
+  opacity: 1;
+  width: 100%;
 }
