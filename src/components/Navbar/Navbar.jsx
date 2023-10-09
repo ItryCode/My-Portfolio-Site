@@ -1,25 +1,25 @@
 import React, { useState } from "react";
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
+import { FaBars, FaX } from "react-icons/fa6";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
     <nav className={styles.navbar}>
-      <a className={styles.title} href="/">
+      <a  className={styles.title} href="/">
         Portfolio
       </a>
       <div className={styles.menu}>
-        <img
+        <div className={styles.menuBtn} onClick={() => setMenuOpen(!menuOpen)}>
+          {menuOpen ? <FaX /> : <FaBars />}
+        </div>
+        {/* <img
           className={styles.menuBtn}
-          src={
-            menuOpen
-              ? getImageUrl("nav/closeIcon.png")
-              : getImageUrl("nav/menuIcon.png")
-          }
+          src={menuOpen ? <FaBars /> : <FaBars />}
           alt="menu-button"
           onClick={() => setMenuOpen(!menuOpen)}
-        />
+        /> */}
 
         <ul
           className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
