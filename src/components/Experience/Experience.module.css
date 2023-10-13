@@ -92,6 +92,9 @@
   font-weight: 500;
 }
 
+.hisImg {
+  display: none;
+}
 .historyItemDetails ul {
   margin-top: 6px;
   list-style-position: inside;

@@ -25,7 +25,7 @@ const Experience = () => {
           {history.map((item, id) => {
             return (
               <li key={id} className={styles.historyItem}>
-                <img src={getImageUrl(item.imageSrc)} alt={item.organisation} />
+                {/* <img src={getImageUrl(item.imageSrc)} alt={item.organisation} /> */}
                 <div className={styles.historyItemDetails}>
                   <h3>{`${item.role}, ${item.organisation}`}</h3>
                   <p>{`${item.startDate}, ${item.endDate}`}</p>
