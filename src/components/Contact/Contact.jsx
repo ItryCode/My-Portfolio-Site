@@ -11,16 +11,21 @@ const Contact = () => {
       </div>
       <ul className={styles.links}>
         <li className={styles.link}>
-          <img src={getImageUrl("contact/emailIcon.png")} alt="Email Icon" />
+          <a href="mailto:sonuhrajeev@gmail.com">
+            {" "}
+            <img src={getImageUrl("contact/emailIcon.png")} alt="Email Icon" />
+          </a>
           <a className={styles.url} href="mailto:sonuhrajeev@gmail.com">
             sonuhrajeev@gmail.com
           </a>
         </li>
         <li className={styles.link}>
-          <img
-            src={getImageUrl("contact/linkedinIcon.png")}
-            alt="Linkedin Icon"
-          />
+          <a href="https://www.linkedin.com/in/sonu-rajiev/">
+            <img
+              src={getImageUrl("contact/linkedinIcon.png")}
+              alt="Linkedin Icon"
+            />
+          </a>
           <a
             className={styles.url}
             href="https://www.linkedin.com/in/sonu-rajiev/"
@@ -29,7 +34,12 @@ const Contact = () => {
           </a>
         </li>
         <li className={styles.link}>
-          <img src={getImageUrl("contact/githubIcon.png")} alt="Github Icon" />
+          <a href="https://github.com/">
+            <img
+              src={getImageUrl("contact/githubIcon.png")}
+              alt="Github Icon"
+            />
+          </a>
           <a className={styles.url} href="https://github.com/">
             github.com/ItryCode
           </a>
