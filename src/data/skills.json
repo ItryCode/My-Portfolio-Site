@@ -18,5 +18,13 @@
   {
     "title": "Figma",
     "imageSrc": "skills/figma.png"
+  },
+  {
+    "title": "Python",
+    "imageSrc": "skills/python.png"
+  },
+  {
+    "title": "Wordpress",
+    "imageSrc": "skills/wordpress.png"
   }
 ]

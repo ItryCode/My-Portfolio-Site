@@ -9,7 +9,7 @@ const Hero = () => {
           Hey,i'm Sonu
         </h1>
         <p className={styles.description}>
-          I am a Web consultant commited to bringing your ideas into reality!
+          I am a Web consultant committed to bringing your ideas into reality!
         </p>
         <a href="mailto:sonuhrajeev@gmail.com" className={styles.contactBtn}>
           Let's Talk
@@ -17,7 +17,7 @@ const Hero = () => {
       </div>
 
       <img
-        src={getImageUrl("hero/heroImage.png")}
+        src={getImageUrl("hero/heroImageNew.png")}
         alt="Hero image of me"
         className={styles.heroImg}
       />
