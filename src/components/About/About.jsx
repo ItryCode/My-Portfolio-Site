@@ -18,31 +18,32 @@ const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Who am i?</h3>
               <p>
-                A programmer hailing from India(aka the land of the techies) who
-                can be trusted with all your Web related needs.My goal is to
-                ensure that i make the client's abstract ideas and vision into a
-                solid,concrete form.
+                A programmer hailing from India who can be trusted with all your
+                Web related needs. My aim is to transform the client's abstract
+                ideas and vision into a solid,concrete form and thereby Ensuring
+                101% customer satisfaction
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/serverIcon.png")} alt="cursor" />
             <div className={styles.aboutItemText}>
-              <h3>Frontend Developer</h3>
+              <h3>Web Developer</h3>
               <p>
-                I have dabbled in Microsoft Azure along with it's various
-                offerings such as it's incredible AI vision and form recognizer
-                services.
+                Designing , Developing and problem solving.Being a web developer
+                allows me to scratch all of those itches. I have dabbled in a
+                variety of website development technologies in both the frontend
+                and backend aspects.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/uiIcon.png")} alt="ui-icon" />
             <div className={styles.aboutItemText}>
-              <h3>UI/UXDeveloper</h3>
+              <h3>UI/UX Developer</h3>
               <p>
-                I have designed multiple landing pages and posters for a variety
-                of clients
+                I specialize in ensuring that the balance between customer
+                satisfaction,user engagement and design fundamentals are met.
               </p>
             </div>
           </li>

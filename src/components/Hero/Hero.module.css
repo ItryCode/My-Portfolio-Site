@@ -111,17 +111,19 @@
     #2bd2ff 50%,
     rgba(25, 55, 109, 0.7) 90%
   );
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
   animation-name: morph;
-  animation-duration: 10s;
+  animation-duration: 15s;
   animation-iteration-count: infinite;
-  animation-timing-function: ease-out;
+  animation-timing-function: ease-in-out;
+  background: transparent;
+  animation-direction: alternate;
 }
 
 @keyframes morph {
   0% {
-    border-radius: 60% 50% 30% 70% /60% 30% 70% 40%;
+    border-radius: 250px 750px 250px 750px / 750px 250px 750px 250px;
     background: transparent;
-    /* transform: translate(0, 0px); */
   }
 
   30% {
@@ -133,7 +135,7 @@
     background: transparent;
   }
   50% {
-    border-radius: 50% 60% 70% 40% /50% 60% 30% 60%;
+    border-radius: 750px 550px 350px 750px / 350px 750px 550px 450px;
     background: transparent;
     /* background-image: linear-gradient(
       45deg,
@@ -141,13 +143,11 @@
       #2bd2ff 50%,
       rgba(25, 55, 109, 0.7) 90%
     ); */
-    /* transform: translate(0, 10px); */
   }
-
-  60% {
+  /* 60% {
     border-radius: 55% 45% 75% 25% / 67% 57% 43% 33%;
     background: transparent;
-  }
+  } */
 
   70% {
     border-radius: 65% 35% 82% 18% / 48% 61% 39% 52%;
@@ -163,9 +163,8 @@
   }
 
   100% {
-    border-radius: 60% 50% 30% 70% /60% 30% 70% 40%;
+    border-radius: 750px 250px 750px 250px / 250px 750px 250px 750px;
     background: transparent;
-    /* transform: translate(0, -0px); */
   }
 }
 

@@ -6,7 +6,7 @@ const Hero = () => {
     <section className={styles.container}>
       <div className={styles.content}>
         <h1 data-text="Hey,i'm Sonu" className={styles.title}>
-          Hey,i'm Sonu
+          Hey!I'm Sonu
         </h1>
         <p className={styles.description}>
           I am a Web consultant committed to bringing your ideas into reality!

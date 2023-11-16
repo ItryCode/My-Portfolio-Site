@@ -7,7 +7,7 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
     <nav className={styles.navbar}>
-      <a  className={styles.title} href="/">
+      <a className={styles.title} href="/">
         Portfolio
       </a>
       <div className={styles.menu}>
@@ -32,10 +32,10 @@ const Navbar = () => {
             <a href="#experience">Experience</a>
           </li>
           <li className={styles.navlink}>
-            <a href="#Projects">Projects</a>
+            <a href="#projects">Projects</a>
           </li>
           <li className={styles.navlink}>
-            <a href="#Contacts">Contacts</a>
+            <a href="#contact">Contacts</a>
           </li>
         </ul>
       </div>
