@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 data-text="Hey,i'm Sonu" className={styles.title}>
+        <h1 data-text="Hey!I'm Sonu" className={styles.title}>
           Hey!I'm Sonu
         </h1>
         <p className={styles.description}>
